@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1c93b;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.player-img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.player-img:hover {
+  transition: all 0.3s;
+  transform: scale(1);
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  opacity: 0.6;
+}
+
+.statistics-card {
+  list-style: none;
+  height: 300px;
+  padding-top: 35%;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 200px;
+  background-image: url(../assets/nba_container_logo.jpg);
+  background-size: cover;
+  background-repeat: round;
+}
+
+.statistics-card li {
+  color: white;
+  margin-bottom: 1rem;
+}
